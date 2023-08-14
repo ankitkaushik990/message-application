@@ -1,0 +1,27 @@
+###
+GET http://localhost:4001/nishant
+
+
+
+###
+POST http://localhost:4001/user/message
+content-type: application/json
+
+{
+"name":"hiiiii",
+"email":"Thsdgfhbs@GMAweILAIL.COM",
+"message": "HELLO WORKD"
+}
+
+
+###
+GET  http://localhost:4001/user/seeMessage
+
+
+###
+POST  http://localhost:4001/user/mes
+content-type: application/json
+
+{
+    "id":"64d8a786779d7841f7e285bf"
+}
